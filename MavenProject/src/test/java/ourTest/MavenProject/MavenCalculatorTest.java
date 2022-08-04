@@ -7,6 +7,6 @@ public class MavenCalculatorTest {
 	public  void multiplyTest() {
 		int x = 3;
 		int y = 4;
-		assertEquals(12, MavenCalculator.multiply(x,y));
+		assertEquals(MavenCalculator.multiply(x,y));
 	}
 }
